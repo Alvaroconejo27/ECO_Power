@@ -92,7 +92,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4743022800096880}
-  - component: {fileID: -6727504914672141157}
+  - component: {fileID: -3208178564072455997}
   m_Layer: 0
   m_Name: RockSmallGroupBrown4
   m_TagString: Untagged
@@ -120,8 +120,8 @@ Transform:
   - {fileID: 4670294755164328}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!136 &-6727504914672141157
-CapsuleCollider:
+--- !u!64 &-3208178564072455997
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -138,11 +138,10 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Height: 1
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1 &1693815049890730
 GameObject:
   m_ObjectHideFlags: 0

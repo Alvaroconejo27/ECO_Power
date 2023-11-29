@@ -92,7 +92,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4266879529673854}
-  - component: {fileID: -2488111783563629604}
+  - component: {fileID: -7592569840526168927}
   m_Layer: 0
   m_Name: LeafGrup1
   m_TagString: Untagged
@@ -120,8 +120,8 @@ Transform:
   - {fileID: 4062489078638506}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!136 &-2488111783563629604
-CapsuleCollider:
+--- !u!64 &-7592569840526168927
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -138,11 +138,10 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Height: 1
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1 &1338093052425628
 GameObject:
   m_ObjectHideFlags: 0

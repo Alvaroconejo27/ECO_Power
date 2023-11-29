@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4276214335101272}
   - component: {fileID: 33851975274098398}
   - component: {fileID: 23379184498972250}
-  - component: {fileID: 2260895086551562422}
+  - component: {fileID: -5883517075475845374}
   m_Layer: 0
   m_Name: Plant4_2
   m_TagString: Untagged
@@ -84,8 +84,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &2260895086551562422
-CapsuleCollider:
+--- !u!64 &-5883517075475845374
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -102,8 +102,7 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.42572755
-  m_Height: 0.18894961
-  m_Direction: 1
-  m_Center: {x: -0.000003054738, y: 0.09285186, z: 0.0008100122}
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: e4462e3f779832d45a0f81e679475010, type: 3}

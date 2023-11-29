@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4285346189699102}
   - component: {fileID: 33049145828626174}
   - component: {fileID: 23511935260279522}
-  - component: {fileID: 3551886856814785673}
+  - component: {fileID: -9185661610504388538}
   m_Layer: 0
   m_Name: RockGround_3 (2)
   m_TagString: Untagged
@@ -84,8 +84,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &3551886856814785673
-CapsuleCollider:
+--- !u!64 &-9185661610504388538
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -102,8 +102,7 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.43500045
-  m_Height: 0.033037003
-  m_Direction: 1
-  m_Center: {x: -0.00076781213, y: 0.016518502, z: 0.008749545}
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: ec42381b10b583443a4965b3c3cf5580, type: 3}

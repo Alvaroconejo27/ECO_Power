@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4154957678247856}
-  - component: {fileID: 6426534156719801464}
+  - component: {fileID: -5737035753169325126}
   m_Layer: 0
   m_Name: MushroomRedGroup2
   m_TagString: Untagged
@@ -35,8 +35,8 @@ Transform:
   - {fileID: 4431208344723336}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!136 &6426534156719801464
-CapsuleCollider:
+--- !u!64 &-5737035753169325126
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -53,11 +53,10 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Height: 1
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1 &1192692462559486
 GameObject:
   m_ObjectHideFlags: 0

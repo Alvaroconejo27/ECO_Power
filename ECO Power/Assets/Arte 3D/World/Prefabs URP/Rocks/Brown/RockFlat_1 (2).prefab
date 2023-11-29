@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4878025790026360}
   - component: {fileID: 33121779961299338}
   - component: {fileID: 23819811591546256}
-  - component: {fileID: -8535805353439921460}
+  - component: {fileID: 4292006612028407185}
   m_Layer: 0
   m_Name: RockFlat_1 (2)
   m_TagString: Untagged
@@ -84,8 +84,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &-8535805353439921460
-CapsuleCollider:
+--- !u!64 &4292006612028407185
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -102,8 +102,7 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.44723648
-  m_Height: 0.15265499
-  m_Direction: 1
-  m_Center: {x: -0.00015868247, y: 0.076327495, z: 0.0002079755}
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: aca2d07df662b0a4ea67f334cccc8cec, type: 3}

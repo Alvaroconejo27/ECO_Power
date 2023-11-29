@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4127340737678762}
   - component: {fileID: 33088988774186252}
   - component: {fileID: 23711392522739882}
-  - component: {fileID: 6171290591117882037}
+  - component: {fileID: -3765680994415687090}
   m_Layer: 0
   m_Name: MushroomRed
   m_TagString: Untagged
@@ -84,8 +84,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &6171290591117882037
-CapsuleCollider:
+--- !u!64 &-3765680994415687090
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -102,8 +102,7 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.4470175
-  m_Height: 0.7328551
-  m_Direction: 1
-  m_Center: {x: 0.024781793, y: 0.36642754, z: -0.002495423}
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: da29f0f8d4405724e8fe9e6936ea5a5e, type: 3}

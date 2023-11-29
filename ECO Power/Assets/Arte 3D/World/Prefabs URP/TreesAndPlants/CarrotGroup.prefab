@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4790131786760058}
   - component: {fileID: 33611108956810808}
   - component: {fileID: 23478321222096866}
-  - component: {fileID: -7753417802533591669}
+  - component: {fileID: -6774147962358122701}
   m_Layer: 0
   m_Name: CarrotGroup
   m_TagString: Untagged
@@ -84,8 +84,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &-7753417802533591669
-CapsuleCollider:
+--- !u!64 &-6774147962358122701
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -102,8 +102,7 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.39121068
-  m_Height: 0.5512883
-  m_Direction: 1
-  m_Center: {x: -0.000000074505806, y: 0.27564415, z: 0}
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 7a48d6b9838d18c4da9d686cad447107, type: 3}

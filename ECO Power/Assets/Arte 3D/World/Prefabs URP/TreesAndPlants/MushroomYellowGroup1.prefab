@@ -175,7 +175,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4550456048078966}
-  - component: {fileID: -5422067636343021725}
+  - component: {fileID: -6520300479597921351}
   m_Layer: 0
   m_Name: MushroomYellowGroup1
   m_TagString: Untagged
@@ -203,8 +203,8 @@ Transform:
   - {fileID: 4008742746786642}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!136 &-5422067636343021725
-CapsuleCollider:
+--- !u!64 &-6520300479597921351
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -221,11 +221,10 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Height: 1
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1 &1583974375283570
 GameObject:
   m_ObjectHideFlags: 0
